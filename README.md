@@ -9,6 +9,6 @@ Create a function that:
 
 For example:
 
-12/08/2020 should return Wednesday August 12, 2020
+`12/08/2020` should return `Wednesday August 12, 2020`
 
 All strings must be defined using template literals.
