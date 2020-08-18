@@ -15,15 +15,4 @@ const options = {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
 
 //console.log(event); //returns date in millis and I know it's working
 
-console.log(event.toLocaleDateString('en-US', options));
-
-
-
-/*
-;
-let weekday = today.getDay();
-let options = {weekday: 'long'};
-
-console.log(new Intl.DateTimeFormat('en-US',options).format(today));
-
-*/
+console.log(event.toLocaleDateString('en-US', options)); //this gives me an error
