@@ -13,4 +13,4 @@ const dateString = (dateString, options = {
     return formattedDate.toLocaleDateString('en-US', options);
 }
 
-console.log(dateString('08/19/2020'));
+console.log(dateString('08/17/2020'));
